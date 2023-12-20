@@ -1,0 +1,250 @@
+*{
+    padding:0;
+    margin:0;
+   
+    
+}
+.search{
+    width:320px;
+    background-color: rgb(225, 239, 252);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+ 
+ 
+  
+
+  
+  border-radius: 10px;
+}
+
+
+.search input{
+    border:none;
+    outline:none;
+    flex:1;
+    background:transparent;
+    padding:9px;
+    color:rgb(0, 0, 0);
+}
+.searchButton{
+    padding:9px;
+    background:rgb(94, 92, 92);
+    height:32px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+    border:none;
+    outline:none;
+    color:white;
+
+
+
+}
+.searchButton:hover{
+    background:rgb(44, 43, 43);
+}
+.widget{display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px auto;
+flex-direction: column;
+box-shadow: 5px 5px 18px black;
+ border-radius: 12px;
+background-color: rgb(195, 225, 255);
+ width:600px;
+
+}
+
+.date{
+    width:45px;
+   justify-content: flex-start;
+    display:flex;
+    color:rgb(0, 0, 0);
+}
+
+
+.weatherIcon{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    background: white;
+    border-top-left-radius:12px ;
+    border-top-right-radius: 12px;
+    width:100%;
+    height:130px;
+color:black;
+}
+.weatherIcon img{
+    width:85px;
+    height:85px;
+    color: brown;
+}
+.weatherInfo{
+    display:flex;
+    justify-content: space-between;
+width:350px;
+margin-left:-65px;
+margin-top:-23px;
+background:black;
+    flex-direction: row;
+    align-items: center;
+    padding:25px;
+    color:white;
+    
+    
+}
+
+.weather-card{
+    display:flex;
+    justify-content: space-between;
+width:79%;
+
+    flex-direction: row;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    padding:25px;
+}
+.wrap{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    padding:25px;
+}
+
+.temperature{
+    text-align: center;
+    color:rgb(255, 255, 255);
+  
+}
+.temperature span{
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    
+
+}
+
+.temp-info-minmax{
+    display:flex;
+    justify-content: space-between;
+align-items:center;
+width:90%;
+color:black;
+padding:25px;
+}
+
+.extra-temp{
+    width:100%;
+  color:black;
+}
+.two-sided-section{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    width:90px;}
+
+    .weatherCondition{
+        font-size:35px;
+        margin-left:-98px;
+    }
+    .place{
+        margin-left:-96px;
+    }
+
+
+    @media screen and (max-width: 810px){
+
+
+        .widget {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px auto;
+            flex-direction: column;
+            box-shadow: 5px 5px 18px black;
+            border-radius: 12px;
+            background-color: rgb(195, 225, 255);
+            width: 330px;
+          }
+
+
+          .weather-card {
+            display: flex;
+            justify-content: center;
+            width: 182%;
+            flex-direction: row;
+            align-items: center;
+            
+            padding: 25px;
+            height: 28px;
+          }
+.extra-info-leftside{
+    font-size: 11px;
+}
+          .weatherInfo {
+            display: flex;
+            justify-content: space-between;
+            width: 31%;
+            margin-left: -41px;
+            margin-top: -23px;
+            background: black;
+            flex-direction: row;
+            align-items: center;
+            padding: 9px;
+            color: white;
+          }
+          .temperature {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 9px;
+          }
+          .place{
+            font-size: 13px;
+          }
+          .date {
+            width: 61px;
+            justify-content: center;
+            display: flex;
+            color: rgb(0, 0, 0);
+            font-size: 12px;
+            align-items: center;
+            text-align: center;
+            height: 12px;
+            margin-top: -21px;
+            margin-left: 1px;
+          }
+.weatherCondition{
+    font-size: 16px;
+}
+
+.extra-temp {
+    width: 104%;
+    color: black;
+  }
+
+  .two-sided-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 59px;
+  }
+   .img-sunset{
+    margin-right: 8px;
+   }
+    }
+
+
+
+
+    @media screen and (max-width: 1100px){
+        .weatherInfo{
+margin-left:
+    -64px;
+        } 
+}
