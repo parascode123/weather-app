@@ -1,3 +1,6 @@
+# weather-app
+this is a weather app made using React and with the help of weather Api.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
