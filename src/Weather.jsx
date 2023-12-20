@@ -16,22 +16,22 @@ const Weather = ({
        useEffect(()=>{
         if(weathermood){
           switch( weathermood){
-case "Clouds":setWeatherState("./images/cloud-sun-solid.svg");
+case "Clouds":setWeatherState("/images/cloud-sun-solid.svg");
 break;
 case "Haze":
-  setWeatherState("./images/smog-solid.svg");
+  setWeatherState("images/smog-solid.svg");
 break;
 case "Clear":
-  setWeatherState("./images/brightness-high.svg");
+  setWeatherState("images/brightness-high.svg");
 break;
 case "Mist":
-  setWeatherState("./images/cloud-fog2.svg");
+  setWeatherState("images/cloud-fog2.svg");
 break;
 case "Smoke":
-  setWeatherState("./images/svgviewer-output.svg");
+  setWeatherState("images/svgviewer-output.svg");
 break;
 default:
-  setWeatherState("./images/cloud-sun-solid.svg");
+  setWeatherState("images/cloud-sun-solid.svg");
 break;
           }
         }
