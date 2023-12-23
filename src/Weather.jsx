@@ -1,4 +1,9 @@
 import React ,{useEffect}from 'react'
+import Clear from "./Images/brightness-high.svg";
+import Cloud from "./Images/cloud-sun-solid.svg";
+import Haze from "./Images/smog-solid.svg";
+import Mist from "./Images/cloud-fog2.svg";
+import Smoke from "./Images/svgviewer-output.svg";
 
 
 
@@ -16,22 +21,23 @@ const Weather = ({
        useEffect(()=>{
         if(weathermood){
           switch( weathermood){
-case "Clouds":setWeatherState("/images/cloud-sun-solid.svg");
+case "Clouds":
+  setWeatherState(<img src={Cloud} alt="sunset"/>);
 break;
 case "Haze":
-  setWeatherState("images/smog-solid.svg");
+  setWeatherState(<img src={Haze} alt="sunset"/>);
 break;
 case "Clear":
-  setWeatherState("images/brightness-high.svg");
+  setWeatherState(<img src={Clear} alt="sunset"/>);
 break;
 case "Mist":
-  setWeatherState("images/cloud-fog2.svg");
+  setWeatherState(<img src={Mist} alt="sunset"/>);
 break;
 case "Smoke":
-  setWeatherState("images/svgviewer-output.svg");
+  setWeatherState(<img src={Smoke} alt="sunset"/>);
 break;
 default:
-  setWeatherState("images/cloud-sun-solid.svg");
+  setWeatherState(<img src={Cloud} alt="sunset"/>);
 break;
           }
         }
@@ -42,7 +48,7 @@ let timeStr=`${date.getHours()}:${date.getMinutes()}`;
   return (
     <article className="widget">
     <div className="weatherIcon">
-      <img src={`${weatherState}`} alt="img" />
+      {weatherState}
     </div>
     <div className="weather-card">
       <div className="weatherInfo">
