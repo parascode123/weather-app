@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/weather-app/static/css/main.e8d10255.css",
-    "main.js": "/weather-app/static/js/main.27c14fbf.js",
+    "main.js": "/weather-app/static/js/main.45aa31eb.js",
     "static/media/svgviewer-output.svg": "/weather-app/static/media/svgviewer-output.b83a5d6202a51e92a8fefe6633603bdf.svg",
     "static/media/cloud-sun-solid.svg": "/weather-app/static/media/cloud-sun-solid.12927d14b3d136fd1728626d4de4fdb2.svg",
     "static/media/smog-solid.svg": "/weather-app/static/media/smog-solid.20a893696a967a4374057907ce9abf86.svg",
     "static/media/brightness-high.svg": "/weather-app/static/media/brightness-high.d491282073059676bad724dcff02823d.svg",
     "index.html": "/weather-app/index.html",
+    "static/media/sunset.svg": "/weather-app/static/media/sunset.5383a8c45fdf510a1059ed763735811b.svg",
+    "static/media/droplet.svg": "/weather-app/static/media/droplet.a5e75369a1bd0c49ac88b2a9a9614df4.svg",
+    "static/media/arrow-down-up.svg": "/weather-app/static/media/arrow-down-up.33bdf205c328cc2b373b6a9e97ab6521.svg",
     "static/media/cloud-fog2.svg": "/weather-app/static/media/cloud-fog2.47e4d66d1385bc4339d9746123730c36.svg",
+    "static/media/wind.svg": "/weather-app/static/media/wind.f2016eaa6014d22614a88776f3e43f70.svg",
     "main.e8d10255.css.map": "/weather-app/static/css/main.e8d10255.css.map",
-    "main.27c14fbf.js.map": "/weather-app/static/js/main.27c14fbf.js.map"
+    "main.45aa31eb.js.map": "/weather-app/static/js/main.45aa31eb.js.map"
   },
   "entrypoints": [
     "static/css/main.e8d10255.css",
-    "static/js/main.27c14fbf.js"
+    "static/js/main.45aa31eb.js"
   ]
 }
