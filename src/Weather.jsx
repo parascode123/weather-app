@@ -4,6 +4,11 @@ import Cloud from "./Images/cloud-sun-solid.svg";
 import Haze from "./Images/smog-solid.svg";
 import Mist from "./Images/cloud-fog2.svg";
 import Smoke from "./Images/svgviewer-output.svg";
+import Sunset from "./Images/sunset.svg";
+import Humidity from "./Images/droplet.svg";
+import Pressure from "./Images/arrow-down-up.svg";
+import  Speed from "./Images/wind.svg"
+
 
 
 
@@ -67,7 +72,7 @@ let timeStr=`${date.getHours()}:${date.getMinutes()}`;
         <div className="two-sided-section">
           <p class="img-sunset" >
         
-          <img src=".\images\sunset.svg" alt="sunset"/>
+          <img src={Sunset} alt="sunset"/>
           </p>
           <p className="extra-info-leftside">
           {timeStr} PM<br />
@@ -76,7 +81,7 @@ let timeStr=`${date.getHours()}:${date.getMinutes()}`;
         </div>
         <div className="two-sided-section">
           <p>
-          <img src="./images/arrow-down-up.svg" alt="speed"/>
+          <img src={Pressure} alt="Pressure"/>
           </p>
           <p className="extra-info-leftside">
           {pressure} <br />
@@ -85,7 +90,7 @@ let timeStr=`${date.getHours()}:${date.getMinutes()}`;
         </div>
         <div className="two-sided-section">
           <p>
-          <img src="./images/wind.svg" alt="speed"/>
+          <img src={Speed} alt="speed"/>
           </p>
           <p className="extra-info-leftside">
             {speed}<br />
@@ -94,7 +99,7 @@ let timeStr=`${date.getHours()}:${date.getMinutes()}`;
         </div>
         <div className="two-sided-section">
           <p>
-            <img   src="./images/droplet.svg" alt="humidity"/>
+            <img   src={Humidity} alt="humidity"/>
           </p>
           <p className="extra-info-leftside">
             {humidity} <br />
